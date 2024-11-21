@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { BlogPosts } from 'components/posts'
+import {BlogPosts} from 'components/posts'
 
 export default function Page() {
   return (
@@ -7,7 +7,7 @@ export default function Page() {
       <div className="flex items-center mb-8">
         <Image
           src="/profile.png"
-          alt="profile image"
+          alt="gentledot logo"
           width={100}
           height={100}
           className="rounded-full mr-4"
